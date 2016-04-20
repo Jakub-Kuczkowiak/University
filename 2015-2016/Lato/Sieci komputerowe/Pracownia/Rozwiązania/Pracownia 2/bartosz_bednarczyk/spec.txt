@@ -1,0 +1,21 @@
+## Damian Górski, nr indeksu: 273212
+## Bartosz Bednarczyk, nr indeksu: 273479
+## Zadanie programistyczne nr 2 z Sieci komputerowych: Polecenie router
+
+W niniejszym pliku opisuję szczegóły komunikacji między instancjami programu router:
+
+    - wszystkie instancje programu router nasłuchują na porcie 56969;
+    - długość tury wynosi 15 sekund;
+    - za długość nieskończoną uznajemy każdą długość większą niż 10000 (w szczególności UINT16_MAX).
+    - trasy zostają oznaczone jako nieosiągalne po trzech turach od otrzymania ostatniej informacji o nich;
+    - trasy zostają usuwane z tablicy routingu po pięciu turach od otrzymania ostatniej informacji o nich;
+
+    - tablica routingu przesyłana jest w (n*7)-bajtowym buforze, gdzie n oznacza liczbę wpisów;
+    - tablica mieści do 9362 wpisów - ograniczeniem jest maksymalny rozmiar pakietu IP, tzn. 65535 bajtów, w którym ją przesyłamy;
+    - bufor dzielimy na n bloków, po 7 bajtów każdy, zapisanych jeden po drugim;
+    - każdy z bloków dzielimy na następujące części:
+        
+         adres  IP    dystans           - pierwsze cztery bajty w bloku określają adres IP sieci, do której możemy się połączyć;
+        | - - - - | - | - - |           - piąty bajt opisuje bezznakową liczbę 8-bitową, która określa maskę sieciową. Zauważmy, 
+               maska sieci                że potrzebnych jest do tego tylko 6 bitów, więc pierwsze dwa bity są domyślnie zerami;
+                                        - szósty i siódmy bajt opisują bezznakową liczbę 16-bitową, która określa dystans do tej sieci.
