@@ -1,0 +1,45 @@
+<div class="card" id="stationInfoPanel" ng-show="mainController.shouldShowInfoPanel">
+    <div class="card-header">
+        <h3>Stacja: {{mainController.currentStationInfo.address}}</h3>
+    </div>
+
+    <div class="card-block">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link" ng-class="{active: mainController.isTabSet(0)}"
+                   ng-click="mainController.setTab(0)">Rowery</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link" ng-class="{active: mainController.isTabSet(1)}"
+                   ng-click="mainController.showDriveInfo(mainController.currentStationInfo.latitude, mainController.currentStationInfo.longitude)">Trasa</a>
+            </li>
+        </ul>
+        <br/>
+
+        <div class="card-text" ng-show="mainController.isTabSet(0)"
+             ng-controller="AuthenticationController as authController">
+            <p>Dostępne rowery: </p>
+
+            <ul ng-show="!authController.canRentBike()">
+                <li ng-repeat="bike in mainController.currentStationInfo.bikes">{{bike.modelname}}</li>
+            </ul>
+
+            <div ng-controller="StationController as stationController">
+                <form ng-show="authController.canRentBike()">
+                    <div ng-repeat="bike in mainController.currentStationInfo.bikes">
+                        <input type="radio" name="bikeOption" value="{{bike.id}}" ng-checked="{{$first}}"> {{bike.modelname}}
+                    </div>
+                    <br />
+                    <button type="submit" ng-click="stationController.rentBike()">Wypożycz!</button>
+                </form>
+
+                <div ng-show="authController.canUnrentBike()">
+                    <button type="submit" ng-click="stationController.unrentBike(mainController.currentStationInfo)">Zwróć wypożyczony rower tutaj!</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="drive-info" class="tall-block" ng-show="mainController.isTabSet(1)"></div>
+    </div>
+</div>

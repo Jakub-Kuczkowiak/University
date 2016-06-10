@@ -1,0 +1,168 @@
+AiSD I - 22.06.2015 
+
+Zadanie 1 
+--------- 
+Podaj przykład tekstu i wzorca dla których tablica C[0] = C[1] = C[9] = prawda, a dla pozostałych fałsz. Algorytm Shift-And. 
+
+
+Zadanie 2 
+--------- 
+Jak w KMR numeruje się słowa o długości 16? 
+
+
+Zadanie 3 
+--------- 
+Przedstaw graficznie sieć komparatorów o głębokości <= 4 sortującej wszystkie ciągi 0-1 o długości 7. 
+
+
+Zadanie 4 
+--------- 
+Uzasadnij, że obliczenie funkcji pi(Wzorzec[1..m]) w algorytmie KMP ma złożoność O(m). 
+
+
+Zadanie 5 
+--------- 
+Przedstaw macierze dla transformacji Fouriera (???) 
+
+
+Zadanie 6 
+--------- 
+Podaj definicje: rząd wierzchołka i grupa rzędu wierzchołka 
+
+
+Zadanie 7 
+--------- 
+Czy drzewa A i B będą miały równą wysokość, jeśli przeprowadzi się na nich n operacji insert o wartościach: 
+dla A: 1, 2, 3, ..., n 
+dla B: n, n-1, ..., 2, 1 
+
+
+Zadanie 8 
+--------- 
+Przedstaw drzewiec o n wierzchołkach, w którym usunięcie korzenia wymaga Omega(sqrt(n)) operacji, ew. podaj uzasadnienie dlaczego nie ma takiego drzewca. 
+
+
+Zadanie 9 
+--------- 
+Podaj rekurencyjny wzór na T(n) tak, by jego rozwiązanie było O(log log n). 
+
+
+Zadanie 10 
+---------- 
+Ile jest maksymalnie drzew w kopcu: 
+a) dwumianowym, 
+b) Fibonacciego. 
+
+
+Zadanie 11 
+---------- 
+Złożoność procedury budującej kopiec (wersja z przesun-do-gory()). 
+
+
+Zadanie 12 
+---------- 
+Oszacuj prawdopodobieństwo, że nie będzie żadnej kolizji podczas haszowania funkcją z uniwersalnej rodziny sqrt(n) kluczy w tablicy rozmiaru n. 
+
+
+Zadanie 13 
+---------- 
+Podaj pseudowielomianowy algorytm, który wypisuje dzielniki pierwsze liczby n. 
+
+
+Zadanie 14 
+---------- 
+Jeśli w drzewach AVL' zmienilibyśmy warunek, by poddrzewa mogły różnić się o 2 (nie o 1) wysokością, to czy drzewo n-wierzchołkowe dalej ma wysokość Teta(n)? 
+
+
+Zadanie 15 
+---------- 
+Podaj pseudokod rozwiązania problemu LCS. 
+
+
+Zadanie 16 
+---------- 
+Przerób kod QuickSorta na QuickSelect (selekcja k-tego elementu zamiast sortowania). Jaką ma złożoność? 
+
+
+Zadanie 17 
+---------- 
+Porównanie kosztów operacji { min, delmin, insert, meld } dla kopców dwumianowych w wersji Lazy i Eager. 
+
+
+Zadanie 18 
+---------- 
+a) Podaj definicje rzędu drzewa w kopcu Fibbonaciego, 
+b) Podaj górne ograniczenie na ten rząd, 
+c) Podaj ideę dowodu tego ograniczenia. 
+
+
+Zadanie 19 
+---------- 
+Podaj wzór rekurencyjny algorytmu magicznych piątek dla podziału na 7 elementów. 
+
+
+Zadanie 20 
+---------- 
+Przykład grafu pełnego o n wierzchołkach takiego, że algorytm Boruvki znajdzie MST w jednej fazie.
+
+
+------------------------------------------------------------------------------------------------- 
+
+
+AiSD II - 22.06.2015 
+
+Zadanie 1 
+--------- 
+Opisz strukturę danych, która wspiera operacje: 
+- INSERT(x, k) - wstawia element X na k-te miejsce od lewej. Elementy na pozycjach k, k+1, ... przesuwane są o 1 w prawo 
+- AVERAGE(k1, k2) - zwraca śrędnia spośród elementów: k1, k1 + 1, k1 + 2, ..., k2. 
+Podaj złożoność operacji oraz wymaganą złożoność pamięciową dla struktury. 
+
+
+Zadanie 2 
+--------- 
+a) 
+Niech A = { a, b, c } ze zdefiniowaną operacją * (która nie jest ani łączna ani przemienna). 
+Niech ciąg sigma = x1 * x2 * ... * xn. Czy da się tak rozstawić nawiasy, by możliwym wynikiem była wartość "a"? 
+
+b) 
+Zmodyfikuj poprzedni algorytm tak, by wypisywał również rozwiązanie takie, że możliwe najmniejsza ilość wartości "b" została obliczona po drodze do celu. 
+
+
+Zadanie 3 
+--------- 
+Algorytm dla danego słowa w oblicza ile minimalnie znaków należy usunąć z niego by pozostałe słowo było palindromem. Przedstaw złożoność podanego algorytmu oraz uzasadnienie jego poprawności. 
+
+
+----------------------------------------------------------------------------------------- 
+
+
+AiSD III - 23.06.2015 
+
+Zadanie 1 
+--------- 
+Dane: ciąg A = { a[1], a[2], ..., a[n] }, liczba B 
+Wynik: Ilość par (p, k), takich, że mediana podciągu ciągu A złożonego z: { a[p], a[p+1], ..., a[k-1], a[k] } jest większa od liczby B. 
+
+
+
+Zadanie 2 
+--------- 
+Dane: n par złożonych z liczb (c[i], w[i]), gdzie c[i] oznacza ciężar i-tej cegły, a w[i] wytrzymałość i-tej cegły (tzn jaki ciężar można bezpiecznie na niej położyć). 
+Wynik: wysokość najwyższej wieży, którą da się ułożyć z tych cegieł tak, że wieża ta jest stabilna (na danej cegle nie ma cegieł łącznie cięższych niż jej wytrzymałość). 
+
+
+Zadanie 3 
+--------- 
+Dane: Zbiór S, który jest podzbiorem { 1, 2, ..., n }, oraz ciąg operacji SIGMA złożony z operacji: 
+- INSERT(i) - wstawia do zbioru element i. Dla każdego "i" taka operacja może pojawić się co najwyżej raz. 
+- DELETEMIN() - zwraca minimum z wstawionych elementów i usuwa je ze zbioru. 
+- MIN(i) - usuwa wszystkie elementy mniejsze od i ze zbioru 
+Wynik: 
+Lista elementów, które zostaną usunięte przez operacje DELETEMIN() w kolejności w jakiej zostaną usunięte. 
+
+
+Zadanie 4 
+--------- 
+Dane: n punktów na płaszczyźnie 2D 
+Wynik: Trzy punkty spośród podanych, które dają trójkąt o najmniejszym obwodzie z wszystkich możliwych. 

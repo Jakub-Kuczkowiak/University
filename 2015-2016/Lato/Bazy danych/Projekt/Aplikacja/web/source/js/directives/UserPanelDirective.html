@@ -1,0 +1,42 @@
+<div id="userPanel" class="modal fade" role="dialog" data-backdrop="static" ng-controller="AuthenticationController as authController">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">{{userInfo.name}} {{userInfo.surname}}</h4>
+            </div>
+
+            <div class="modal-body">
+                <table>
+                    <tr>
+                        <td style="padding-right: 20px"><b>Pesel:</b></td>
+                        <td>{{userInfo.pesel}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 20px"><b>Adres:</b></td>
+                        <td>{{userInfo.address}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 20px"><b>Email:</b></td>
+                        <td>{{userInfo.email}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 20px"><b>Numer telefonu:</b></td>
+                        <td>{{userInfo.phone}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 20px"><b>Środki:</b></td>
+                        <td>{{userInfo.balance}} zł</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 20px"><b><i>Aktualnie wypożyczony rower:</i></b></td>
+                        <td><i>{{userInfo.currentBike.modelname}} {{userInfo.currentBike.color}}</i></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>

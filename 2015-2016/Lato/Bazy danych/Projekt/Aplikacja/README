@@ -1,0 +1,9 @@
+Żeby uruchmić projekt:
+
+1) Instalujemy virtualbox i vagrant
+2) W katalogu projektu wpisujemy vagrant up
+3) Wpisujemy vagrant ssh
+4) Przechodzimy do katalogu /vagrant
+5) Uruchamiamy my_script.sh
+6) W katalogu projektu wpisujemy polecenie "gradle clean build Backend:run", a w katalogu web polecenie "gulp webserver:live"
+7) Uruchamiamy ulubioną przeglądarkę internetową i wchodzimy na adres "http://10.100.100.150:8000"

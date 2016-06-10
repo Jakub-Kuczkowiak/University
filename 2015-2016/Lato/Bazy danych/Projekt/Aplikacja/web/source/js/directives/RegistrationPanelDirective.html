@@ -1,0 +1,75 @@
+<div id="registrationPanel" class="modal fade" role="dialog" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Rejestracja użytkownika</h4>
+            </div>
+            <div class="modal-body" ng-controller="AuthenticationController as authController">
+                <form ng-submit="authController.register()">
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Pesel:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Pesel" ng-model="authController.pesel">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Hasło:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Hasło" ng-model="authController.password">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Imię:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Imię" ng-model="authController.name">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Nazwisko:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Nazwisko" ng-model="authController.surname">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Adres:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Adres" ng-model="authController.address">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Elpoczta:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Elpoczta" ng-model="authController.email">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Nr telefonu:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Nr telefonu" ng-model="authController.phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="submit" class="btn btn-secondary" value="Register">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

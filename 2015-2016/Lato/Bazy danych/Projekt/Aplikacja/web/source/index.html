@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pl" ng-app="bikerental">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bike Rental</title>
+
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-controller="MainController as mainController">
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+        <a class="navbar-brand" href="#">Bike Rental</a>
+
+        <ul class="nav nav-pills pull-right" ng-controller="AuthenticationController as authController">
+            <li class="nav-item" ng-show="!authController.isAuthenticated()">
+                <button class="btn btn-secondary" type="button" ng-click="authController.showRegisterPanel()">Rejestracja</button>
+            </li>
+            <li class="nav-item" ng-show="!authController.isAuthenticated()">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="loginDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Zaloguj</button>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="loginDropdown" id="dropdownMenuLogin">
+                        <form ng-submit="authController.login()">
+                            <div class="form-group row">
+                                <label class="col-sm-2 form-control-label">Login:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="loginInput" placeholder="Login" ng-model="authController.email" ng-click="authController.recolor()" ng-change="authController.recolor()">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-2 form-control-label">Hasło:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="passwordInput" placeholder="Hasło" ng-model="authController.password" ng-click="authController.recolor()" ng-change="authController.recolor()">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <input type="submit" class="btn btn-secondary" value="Zaloguj">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item" ng-show="authController.isAuthenticated()">
+                <button class="btn btn-secondary" type="button" ng-click="authController.gotoProfile()">Profil</button>
+            </li>
+            <li class="nav-item" ng-show="authController.isAuthenticated()">
+                <button class="btn btn-secondary" type="button" ng-click="authController.logout()">Wyloguj się</button>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="map-container">
+        <ui-gmap-google-map
+            center="mainController.map.center"
+            zoom="mainController.map.zoom"
+            options="mainController.map.options"
+            events="mainController.map.events"
+            control="mainController.map.control"
+        >
+            <ui-gmap-marker
+                ng-repeat="station in mainController.stations"
+                coords="station.location"
+                idkey="station.id"
+                click="mainController.showInfoPanel(station)"
+                icon="{ 'url': '/img/station_marker.png'}"
+            >
+            </ui-gmap-marker>
+
+            <ui-gmap-marker
+                    ng-repeat="service in mainController.services"
+                    coords="service.location"
+                    idkey="service.id"
+                    icon="{ 'url': '/img/service_marker.png'}"
+            >
+            </ui-gmap-marker>
+
+
+            <ui-gmap-marker
+                coords="mainController.myPosition"
+                idkey="'currentPositionID'"
+                icon="{'url' : 'http://maps.google.com/mapfiles/arrow.png'}"
+            >
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+    </div>
+
+    <station-info-panel></station-info-panel>
+
+    <user-panel></user-panel>
+
+    <registration-panel></registration-panel>
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/tether/dist/js/tether.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src='//maps.googleapis.com/maps/api/js'></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
