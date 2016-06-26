@@ -1,0 +1,51 @@
+11 czerwca
+
+1. mamy dwa kopce dwumianowe jeden ma 37 elementow a drugi 54 (czy jakos podobnie), 
+   wykonujemy operacje laczenia tych dwoch kopcow, 
+   ile operacji join zostanie wywolanych podczas ich laczenia
+2. robimy FFT ale na liczbach w pierscieniu Zp, bedziemy mnozyc wielomiany 
+   nieprzekraczajace stopnia 1000 i o wspolczynnikach nie wiekszych od 100
+   jakie p nalezy dobrac aby mozna to bylo zapimplementowac
+3. uniwersum sklada sie z 100000 liczb rzeczywistych, chcemy wykorzystac 
+   strukture union-find do sumowania zbiorow zlozonych z tych liczb jakich zmian 
+   nalezy dokonac w procedurach union i find, aby to dzialalo
+4. podaj definicje uniwersalnej rodziny funkcji hashujacych, przyklad zastosowania 
+   i przyklad takiej rodziny
+5. bylo narysowane jakies drzedo splay tree i trzeba bylo narysowac to 
+   drzewo po wykonaniu operacji insert(8)
+6. zmieniony byl warunek w drzewach c-c na taki ze miedzy dwoma czarnymi 
+   wierzcholkami moga byc dwa czerwone(tylko to bylo troche inaczej zapisane tzn 
+   cos z synem i czyms), ale tak to trzeba bylo rozumiec
+7. pamietasz z kola polowkowego zadanie gdzie byl algorytm i trzeba 
+   bylo policzyc zlozonosc? tam w wewnetrznej petli bylo "div 2" to tu bylo "div 3"
+8. algorytm Boyera-Moore'a. czy moze zdarzyc sie tak ze obie heurestyki dadza 
+   ujemne przesuniecie?
+9. jesli do sortowania liczb typu long zastosujemy cos takiego:
+   zamienimy liczbe na znaki z przedzialu {0..255} i posortujemy takie cisgi 
+   leksykograficznie to czy taki algorytm bedzie dzialal w czasie liniowym
+10.?
+
+
+23 czerwca
+
+1. 
+2. jak przy uzyciu FFT rozwiazac mnozenie dlugich liczb
+3. algorytm dijkstry. jaka jest zlozonosc czasowa jesli uzyjemy
+   kopcow fibonacciego.
+4. 
+5. drzewo avl z nowym warunkiem : w kazdym wezle wysokosc poddrzew 
+   moze sie roznic co najwyzej o dwa. napisz rownanie rekurencyjne na
+   minimalna liczbe wierzcholkow drzewa o wysokosci h.
+6. jakie znasz sieci sortujace. podaj ich glebokosc.
+7. co to jest klasa nc. cos o mnozeniu rownoleglym.
+8. slownik statyczny. podaj jakas implementacje, jakie operacje sa wykonywane
+   na slowniku orzaz jaka jest ich zl. czasowa.
+9. algorytm Boyera-Moore'a. czy moze zdarzyc sie tak ze obie heurestyki dadza 
+   ujemne przesuniecie? (zad 8 termin 11.06)
+10.oszacuj zlozonosc procedury
+                for i=1 to n
+                    j=i
+                    while j>0
+                        if j = 3 (mod 4) then P(n)
+                        j = j div 2
+   koszt P(n) wynosi teta(n).

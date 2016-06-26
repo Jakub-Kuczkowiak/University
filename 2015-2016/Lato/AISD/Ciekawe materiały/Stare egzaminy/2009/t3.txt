@@ -1,0 +1,34 @@
+Część I:
+
+1. Jaka maksymalna wartość może osiągnąć funkcja Pi z KMP, podaj przykład.
+2. Modyfikujemy algorytm 4 Rosjan tak, że zamiast dzielić macierz na paski
+   długości logn dzielimy na paski długości loglogn. Ile wynosi złożoność
+   takiego algorytmu?
+3. Jak reprezentowane jest liniowe przekształcenie w FFT. (chodzi o macierz
+   Vandermonde'a)
+4. Jak działa i ile kosztuje delete w drzewcach.
+5. Mamy małe uniwersum A liczb rzeczywistych i chcemy je pamiętać na zbiorach
+   rozłącznych (union-find). Jak musimy zmodyfikować instrukcje?
+6. Zależność między sieciami bitonicznymi i sortującymi.
+7. Słownik statyczny - opis i złożoność instrukcji.
+8. Jak zmieni się złożoność algorytmu Dijkstry jeśli do zaimplementowania go
+   użyjemy kopców fibonacciego.
+9. Złożoność pesymistyczna i średnia find i union w union-find.
+10.Ile wywołań rekurencyjnych może najwięcej wywołać algorytm dziel i rządź
+   mnożenia macierzy n/4 x n/4 tak, żeby był szybszy od algorytmu Strassena.
+
+
+Część II:
+
+1. Chcemy stworzyć strukturę danych, która będzie przechowywać pary (klucz,
+   wartość) i efektywnie obsługiwać instrukcje insert, delete i int_sum(k1,k2),
+   która wyznacza sumę wartości kluczy zawierających się w przedziale <k1,k2>.
+2. KMP dla wyszukiwania 2-ch wzorców w tekście.
+
+
+Część III:
+
+1. Najbardziej odległe punkty na płaszczyźnie.
+2. Mamy daną drabinę z wagami na krawędziach z przedziału <-100;100>, w której
+   możemy każdą jej składową (kwadrat) cyklicznie obracać. Algorytm ma wyznaczyć
+   ciąg obróceń takich kwadratów, tak aby suma wag była jak najmniejsza. 

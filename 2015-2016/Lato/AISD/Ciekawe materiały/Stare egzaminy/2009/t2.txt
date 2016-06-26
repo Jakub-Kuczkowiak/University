@@ -1,0 +1,50 @@
+Część I:
+1. Napisać procedurę do kopca, która jednocześnie zwiększa i zmniejsza wartość
+   klucza
+2. Izomorfizm drzew - opisz algorytm
+3. Ile rotacji wymaga drzewo AVL przy usuwaniu elementu z tego drzewa, swoją
+   odpowiedź uzasadnij
+4. Liczba drzew w kopcach dwumianowych wersja eager i lazy
+5. Jakieś dziwne zadanie o wyszukiwaniu elementów ze zbioru szukamy tych
+   elementów które mają specjalną cechę C i jest ich nie mniej niż 30%, chyba
+   dowód podobny do hashowania podwójnego zawartego w Cormenie, oczywiście mogę
+   się mylić.
+6. Zlepki w hashowaniu liniowym i kwadratowym
+7. dostaliśmy ciąg, pytanie: jak go reprezentować tak aby dodawanie elementów
+   (wtedy jeżeli dodamy k-ty element: elementy k,k+1, k+2 staną się k+1,k+2,k+3)
+   oraz usuwanie elementu (analogicznie usuniemy k-ty: k+1,k+2.. stanie się
+   k,k+1) były w czasie O(log n)
+8. na początku mamy n drzew będących tylko pojedynczymi wierzchołkami, budujemy
+   drzewa w taki sposób: podłączamy korzeń drzewa mniejszego pod wzgl. ilości
+   wierzchołków pod korzeń większego. jaka jest maksymalna wysokość drzewa,
+   którą można w ten sposób uzyskać 
+9. Co to jest odcięcie kaskadowe w kopcach fibonacciego 
+10.Algorytm LazySelect (podany prawdopodobnie taki jak w notatkach), powiedzieć
+   dlaczego w piątym kroku, gdy sprawdzamy czy elem. należy do zbioru jest na to
+   duże ppb
+
+
+Część II:
+
+1. Należało obliczyć koszt zamortyzowany operacji add(k), dodającą 2^k do
+   licznika binarnego. Zadanie ładnie opisane jest w Cormenie, w rozdziale
+   poświęconym kosztowi zamortyzowanemu.
+2. Pół zadania: Mieliśmy dane n punktów na prostej i m odcinków na niej.
+   Należało obliczyć minimalny zbiór odcinków pokrywający wszystkie punkty.
+   Coś podobnego było chyba na liście 2.
+   Drugie pół:
+   Potem należało tak zmodyfikować algorytm, by dla zadanego k obliczał takie
+   pokrycie punktów, w którym każdy punkt jest pokryty przez dokładnie k
+   odcinków.
+
+
+Część III:
+
+3. Należało obliczyć oczekiwaną złożoność czasową algorytmu Hoare'a (quicksorto-
+   podobnego algorytmu znajdującego k-ty element)
+4. Dane były zbiór A, (|A| = małe naturalne k) i ciąg a1,a2...an liczb z tego
+   zbioru oraz tablica D[k][k] określajaca wyniki niełącznego i nieprzemiennego
+   działania (*).
+   Wykonywaliśmy ciąg działań a1(*)a2(*)...(*)an, z tym, że nie znaliśmy
+   nawiasowania. Każde nawiasowanie było tak samo prawdopodobne - należało
+   obliczyć najbardziej prawdopodobny wynik.
