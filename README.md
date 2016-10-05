@@ -1,6 +1,8 @@
 # University
 
-Znajdują się tutaj materiały oraz rozwiązania zadań z przedmiotów, które realizowałem podczas studiów.
+## Studia Licencjackie:
+
+Znajdują się tutaj materiały oraz rozwiązania zadań z przedmiotów, które realizowałem podczas studiów licencjackich.
 
 Zima 2014/2015:
 
@@ -36,12 +38,24 @@ Zima 2015/2016:
 Lato 2015/2016:
 
  - Algorytmy i struktury danych (M) (w: Krzysztof Loryś, ćw: Krzysztof Loryś)
- - Języki formalne i złożoność obliczeniowa (w: Jerzy Marcinkowski) - nieoficjalnie
+ - Języki formalne i złożoność obliczeniowa (w: Jerzy Marcinkowski) - jako wolny słuchacz
  - Bazy danych (w: Piotr Wieczorek, ćw: Jakub Michaliszyn)
  - Sieci komputerowe (w: Marcin Bieńkowski, ćw: Michał Różański)
  - Praca licencjacka (poza zajęciami, promotor: Witold Charatonik)
  - Seminarium zakładu Teorii Informatyki i Baz Danych (tibad.ml)
 
+Zima 2016/2017:
 
-Udzielam korepetycji z powyższych przedmiotów.
-Szczegóły http://www.e-korepetycje.net/wiedzmac
+- Praktyka optymalizacji (w: Mieczysław Wodecki, ćw: Mieczysław Wodecki)
+- Seminarium: O automatach skończonych (sem: Marek Szykuła)
+- Seminarium: Złożoność z lekką nutką logiki (sem: Jerzy Marcinkowski)
+- Inżynieria Oprogramowania (w: Leszek Grocholski, ćw: Leszek Grocholski)
+- Problemy decyzyjne w logice (w: Emanuel Kieroński, ćw: Emanuel Kieroński)
+- Seminarium: Teoria automatów (sem: Jan Otop)
+- Rachunek prawdopodobieństwa dla informatyków (w: Krzysztof Dębicki, ćw: Krzysztof Dębicki)
+- Algebra B1 (w: Piotr Kowalski, ćw: Piotr Kowalski)
+- Egzamin licencjacki i obrona pracy licencjackiej
+
+## Studia magisterskie:
+
+Tu na razie nic nie ma.
