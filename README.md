@@ -48,10 +48,8 @@ Zima 2016/2017:
 
 - Praktyka optymalizacji (w: Mieczysław Wodecki, ćw: Mieczysław Wodecki)
 - Seminarium: O automatach skończonych (sem: Marek Szykuła)
-- Seminarium: Złożoność z lekką nutką logiki (sem: Jerzy Marcinkowski)
 - Inżynieria Oprogramowania (w: Leszek Grocholski, ćw: Leszek Grocholski)
 - Problemy decyzyjne w logice (w: Emanuel Kieroński, ćw: Emanuel Kieroński)
-- Seminarium: Teoria automatów (sem: Jan Otop)
 - Rachunek prawdopodobieństwa dla informatyków (w: Krzysztof Dębicki, ćw: Krzysztof Dębicki)
 - Algebra B1 (w: Piotr Kowalski, ćw: Piotr Kowalski)
 - Egzamin licencjacki i obrona pracy licencjackiej
