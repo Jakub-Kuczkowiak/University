@@ -56,4 +56,11 @@ Zima 2016/2017:
 
 ## Studia magisterskie:
 
-Tu na razie nic nie ma.
+Lato 2016/2017:
+
+- Metody optymalizacji (w: Mieczysław Wodecki, ćw: Mieczysław Wodecki)
+- Kurs XML (w: Piotr Wieczorek, prac: Piotr Wieczorek)
+- Testowanie oprogramowania (w: Leszek Grocholski, ćw: Leszek Grocholski)
+- Języki formalne i złożność obliczeniowa (w: Jerzy Marcinkowski, ćw: Jakub Michaliszyn)
+- Rachunek prawdopodobieństwa i statystyka (w: Witold Karczewski, ćw: Antoni Kościelski)
+- Wprowadzenie do teorii zbiorów (w: Jan Kraszewski, ćw: Jan Kraszewski)
