@@ -1,0 +1,95 @@
+<ldbc>
+  <forum>
+    <title>Forum Romanum</title>
+    <creationDate>03-05-1234</creationDate>
+    <tags>
+      <tag tagclass="TagClass1">
+        <name>ExampleName1</name>
+      </tag>
+      <tag tagclass="TagClass2">
+        <name>ExampleName2</name>
+      </tag>
+      <tag tagclass="TagClass1">
+        <name>ExampleName3</name>
+      </tag>
+    </tags>
+    <posts>
+      <post id="1">
+        <language>Polski</language>
+        <imagefile>obrazek.png</imagefile>
+        <creation_date>05-05-2014</creation_date>
+        <browserUsed>Safari</browserUsed>
+        <content> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</content>
+        <length>123</length>
+        <tags>
+          <tag tagclass="TagClass1">
+            <name>ExamplePostTagName1</name>
+          </tag>
+        </tags>
+        <comments>
+          <comment>
+            <author>Jan Kowalski </author>
+            <date>129-41-2</date>
+          </comment>
+        </comments>       
+      </post>
+    </posts>
+    <members>
+      <member person="1"></member>
+    </members>
+  </forum>
+
+  <people>
+    <person id="1" isLocatedIn="Wroclaw">
+      <creationDate>03-20-2014</creationDate>
+      <firstName>Jan</firstName>
+      <lastName>Kowalski</lastName>
+      <gender>Mężczyzna</gender>
+      <birtday>03-20-1995</birtday>
+      <emails>
+        <email>spokoziomek15@o2.pl</email>
+      </emails>
+      <languages>
+        <language>Polski</language>
+        <language>Angielski</language>
+        <language>Esperanto</language>
+      </languages>
+      <browserUsed>Mozilla Firefox</browserUsed>
+      <locationIP>127.0.0.1</locationIP>
+      <studyAt>
+        <universities>
+          <UniwersytetWarszawski></UniwersytetWarszawski>
+        </universities>
+      </studyAt>
+      <likes>
+        <posts>
+          <post id="1"/>
+        </posts>
+      </likes>
+      
+    </person>
+  </people>
+
+  <continent>
+    <eurazja>
+      <counties>
+        <Poland>
+          <cities>
+            <Warszawa>
+              <organizations>
+                <companies>
+                  <Google>
+                  </Google>
+                </companies>
+                <universities>
+                  <UniwersytetWarszawski>
+                  </UniwersytetWarszawski>
+                </universities>
+              </organizations>
+            </Warszawa>
+          </cities>
+        </Poland>
+      </counties>
+    </eurazja>
+  </continent>
+</ldbc>

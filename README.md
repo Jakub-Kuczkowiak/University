@@ -62,4 +62,4 @@ Lato 2016/2017:
 - Kurs XML i grafowe bazy danych (w: Piotr Wieczorek, prac: Piotr Wieczorek)
 - Testowanie oprogramowania (w: Leszek Grocholski, ćw: Leszek Grocholski)
 - Języki formalne i złożność obliczeniowa (w: Jerzy Marcinkowski, ćw: Jakub Michaliszyn)
-- Rachunek prawdopodobieństwa i statystyka (w: Witold Karczewski, ćw: Antoni Kościelski)
+- O ekonomii i gospodarce inaczej (w: Witold Kwaśnicki)

@@ -1,0 +1,22 @@
+File r_and_j.xml  contains xml version of Shakespeare's Romeo and Juliet (schema: play.dtd)
+
+Write XPath queries that return
+
+1. the titles of all scenes and acts of the tragedy in the document order;
+2. the list of all persons that speak in the first and the third scene of the third act;
+3. the list of all persons that speak in the second and the eighth scene  (counting scenes from the beginning of the drama);
+4. the titles of all scenes in which Juliet speaks;
+5. the title of the scene in Act I that has the maximal number of the elements LINE;
+6. the title of the scene in Act II that has the least number of the elements SPEAKER;
+7. how many times the word "love" is said in the scenes in which  Romeo speaks. (Be careful!  It is not enough to count the number of LINE elements containing the word "love", note also that some words in the play are not said. You can use, e.g., the function "tokenize");
+8. the list of the persons that never say  "no" (of course they can say, e.g., "now")
+9. the list of any 3 speakers that speak in the same scene in which Romeo and Juliet speak but not Benvolio.
+10. the list of the first 3 speakers in the last act. 
+11. the first words of Juliet and the last words of Romeo (use the first (resp. last) LINE element).
+12. the last words of Juliet in each scene in which she speaks (the last LINE element for each scene);
+13. the first words of Romeo in each scene in which he speaks;
+14. how many times Juliet speaks directly after Romeo speaks  (according to SPEECH elements);
+15. how many times Romeo speaks in the scenes where Juliet speaks (according to LINE elements);
+16. the list of persons ordered according to the moment when they speak for the last time;
+17. the list of persons that speak at least once directly before Juliet (independently of scene/act boundaries);
+18. the list of persons that speak at least once directly before Romeo (in the same scene).

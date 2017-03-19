@@ -1,0 +1,11 @@
+Task  1 (10 points, deadline: Mon, 20.03.2017)
+
+Consider the schema  for representing social network data: look at  page 14 of LDBC Benchmark documentation pdf.
+
+Propose your own XML markup language to store  data of this kind. The above schema is only to illustrate what kind of data you have to support and what are relations among the data. Feel free to organize  it your way.
+
+Send an example XML file illustrating your format.
+
+You have to show me your proposal, preferably directly after the lecture on Monday.
+
+It is possible to be one week late, however this costs half of the points.
