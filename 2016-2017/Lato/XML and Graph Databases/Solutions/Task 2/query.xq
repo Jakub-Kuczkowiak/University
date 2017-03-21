@@ -41,7 +41,7 @@ let $tokenized := tokenize($replaced, "\s+")
 return count($tokenized[.="love"])
  :)
 
-(: Zad 8 :)
+(: Zad 8
 let $persons := distinct-values(fn:doc("r_and_j.xml")//SPEAKER)
 for $name in $persons
 	let $speeches := fn:doc("r_and_j.xml")//SPEECH[./SPEAKER = $name]
@@ -52,5 +52,30 @@ for $name in $persons
 	return
 		if (count($tokenized[.="no"]) = 0)
 		then $name else ""
+ :)
 
+(: Zad 9 
+let $scenes := fn:doc("r_and_j.xml")/PLAY/ACT/SCENE[ (.//SPEAKER = "ROMEO") and (.//SPEAKER = "JULIET") and not(.//SPEAKER = "BENVOLIO") ]
+let $speakers := distinct-values($scenes//SPEAKER[.!="ROMEO" and .!="JULIET"])
+return ($speakers[1], $speakers[2], $speakers[3])  
+ :) 
+
+(: Zad 10
+let $speakers := distinct-values(fn:doc("r_and_j.xml")/PLAY/ACT[last()]//SPEAKER)
+return ($speakers[1], $speakers[2], $speakers[3])
+ :)
+
+(: Zad 11
+((fn:doc("r_and_j.xml")//SPEECH[./SPEAKER = "JULIET"])//LINE)[1] | ((fn:doc("r_and_j.xml")//SPEECH[./SPEAKER = "ROMEO"])//LINE)[last()]
+ :)
+
+(: Zad 12
+let $scenes := fn:doc("r_and_j.xml")/PLAY/ACT/SCENE[(.//SPEAKER = "JULIET")]
+return $scenes//SPEECH[last()]/LINE[last()]
+ :)
+
+(: Zad 13
+let $scenes := fn:doc("r_and_j.xml")/PLAY/ACT/SCENE[(.//SPEAKER = "ROMEO")]
+return $scenes//SPEECH[1]/LINE[1]
+ :)
 

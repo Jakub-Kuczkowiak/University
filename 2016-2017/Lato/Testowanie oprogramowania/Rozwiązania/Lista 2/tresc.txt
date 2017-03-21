@@ -1,0 +1,13 @@
+Lista zadań nr 2 - statyczna analiza kodu
+
+1. Zapoznać się z oprogramowaniem:
+    • CCCC             http://sourceforge.net/projects/cccc/
+    • SonarQube   http://www.sonarsource.org/
+
+2. Przeanalizować przy pomocy oprogramowania CCCC i SonarQube w własne programy.
+    5 pkt
+3. Podać definicje i interpretacje metryk oprogramowania dostarczanych przez oprogramowanie CCCC i SonarQube.
+    5 pkt
+
+Uwaga: Jeżeli Państwo podczas praktyki lub w pracy korzystaliście/korzystacie z innego oprogramowania nić CCCC lub SonarQube
+              to oczywiście można je  użyć zamiast  CCCC lub SonarQube.

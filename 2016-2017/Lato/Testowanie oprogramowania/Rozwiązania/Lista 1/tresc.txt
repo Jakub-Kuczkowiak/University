@@ -1,0 +1,13 @@
+Zadanie 1. 
+    Zapoznać się z pojęciami przypadku użycia i scenariusza przypadków użycia.
+     A. Napisać scenariusze  ( główny i alternatywne ) dla przypadku użycia:
+         - Szybka wypłata pieniędzy  ( dokładnie kwoty 50 zł ) z bankomatu.
+         Szybka wypłata oznacza wybór kwoty wypłaty 50 zł z menu i brak pytania o wydrukowanie potwierdzenia transakcji.
+     B. Napisać przypadki testowe  pokrywające wszystkie scenariusze przypadków użycia.
+     pkt 5.
+
+Zadanie 2. 
+    Zapoznać się z 10-cioma heurystykami Nielsena.
+    Heurystyki są uznawanymi zasadami użyteczności.
+    Ocenić zgodność wybranego serwisu WWW z 10-cioma heurystykami Nielsena.
+    pkt 5.
