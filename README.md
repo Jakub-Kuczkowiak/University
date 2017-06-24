@@ -56,10 +56,5 @@ Zima 2016/2017:
 
 ## Studia magisterskie:
 
-Lato 2016/2017:
+Od września 2017 studiuję na informatykę (Masters Jacques Herbrand) na École normale supérieure Paris-Saclay (dawne ENS Cachan). Więcej informacji o moich studiach tutaj: https://wikimpri.dptinfo.ens-cachan.fr/doku.php
 
-- Metody optymalizacji (w: Mieczysław Wodecki, ćw: Mieczysław Wodecki)
-- Kurs XML i grafowe bazy danych (w: Piotr Wieczorek, prac: Piotr Wieczorek)
-- Testowanie oprogramowania (w: Leszek Grocholski, ćw: Leszek Grocholski)
-- Języki formalne i złożność obliczeniowa (w: Jerzy Marcinkowski, ćw: Jakub Michaliszyn)
-- O ekonomii i gospodarce inaczej (w: Witold Kwaśnicki)
