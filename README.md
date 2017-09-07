@@ -58,3 +58,13 @@ Zima 2016/2017:
 
 Od września 2017 studiuję na informatykę (Masters Jacques Herbrand) na École normale supérieure Paris-Saclay (dawne ENS Cachan). Więcej informacji o moich studiach tutaj: https://wikimpri.dptinfo.ens-cachan.fr/doku.php
 
+M1 (Masters Jacques Herbrand):
+
+- Lambda-calculi and Domains (P-A. Melliès)
+- Tree Automata and Applications (S. Schmitz, Ch. Jacomme)
+- Rewriting Techniques (F. Blanqui)
+- Advanced Complexity (J. Goubault-Larrecq, Ph. Schnoebelen)
+- Initiation to Research (Ph. Schnoebelen)
+- Networks (J. Chroboczek)
+- Basics of Verification (P. Gastin, S. Schwoon, M. Fortin)
+- Software Engineering (D. Baelde, Ch. Jacomme)
