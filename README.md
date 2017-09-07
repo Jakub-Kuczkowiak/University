@@ -68,3 +68,4 @@ M1 (Masters Jacques Herbrand):
 - Networks (J. Chroboczek)
 - Basics of Verification (P. Gastin, S. Schwoon, M. Fortin)
 - Software Engineering (D. Baelde, Ch. Jacomme)
+- Long research internship
