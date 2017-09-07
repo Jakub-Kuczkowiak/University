@@ -2,7 +2,7 @@
 
 ## Studia Licencjackie:
 
-Znajdują się tutaj materiały oraz rozwiązania zadań z przedmiotów, które realizowałem podczas studiów licencjackich.
+Znajdują się tutaj materiały oraz rozwiązania zadań z przedmiotów, które realizowałem podczas studiów licencjackich na Uniwersytecie Wrocławskim.
 
 Zima 2014/2015:
 
@@ -56,7 +56,7 @@ Zima 2016/2017:
 
 ## Studia magisterskie:
 
-Od września 2017 studiuję na informatykę (Masters Jacques Herbrand) na École normale supérieure Paris-Saclay (dawne ENS Cachan). Więcej informacji o moich studiach tutaj: https://wikimpri.dptinfo.ens-cachan.fr/doku.php
+Od września 2017 studiuję informatykę teoretyczną we Francji na École normale supérieure Paris-Saclay (dawne ENS Cachan). Więcej informacji o moich studiach tutaj: https://wikimpri.dptinfo.ens-cachan.fr/doku.php
 
 M1 (Masters Jacques Herbrand):
 
