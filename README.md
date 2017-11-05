@@ -60,12 +60,10 @@ Od września 2017 studiuję informatykę teoretyczną we Francji na École norma
 
 M1 (Masters Jacques Herbrand):
 
-- Lambda-calculi and Domains (P-A. Melliès)
+- Lambda-calculi and Domains (P-A. Melliès, S. Mimram)
 - Tree Automata and Applications (S. Schmitz, Ch. Jacomme)
-- Rewriting Techniques (F. Blanqui)
-- Advanced Complexity (J. Goubault-Larrecq, Ph. Schnoebelen)
-- Initiation to Research (Ph. Schnoebelen)
-- Networks (J. Chroboczek)
+- Advanced Complexity (J. Goubault-Larrecq, Ph. Schnoebelen, Ch. Jacomme, R. Poulain)
+- Initiation to Research (Ph. Schnoebelen, M. Függer)
 - Basics of Verification (P. Gastin, S. Schwoon, M. Fortin)
 - Software Engineering (D. Baelde, Ch. Jacomme)
-- Long research internship
+- Long research internship (with Michael Benedikt at University of Oxford)
